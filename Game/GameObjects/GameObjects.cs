@@ -2,9 +2,13 @@ namespace Game.GameObjects
 {
     class GameObjects
     {
-        struct Circel
+        struct Sphere
         {
-            
+            float radius;
+            public Sphere(int r)
+            {
+                radius = r;
+            }
         }
     }
 }
